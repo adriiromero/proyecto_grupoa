@@ -1,4 +1,4 @@
-# 🛠️ Proyecto TecnoBalanegra - Web Corporativa
+# Proyecto TecnoBalanegra - Web Corporativa
 
 Este repositorio contiene el código fuente de la plataforma web de **TecnoBalanegra**, desarrollada como parte del Proyecto Final del Grado Medio en Sistemas Microinformáticos y Redes (SMR) del IES Abdera en el curso 2025/26.
 
