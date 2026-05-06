@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | TecnoBalanegra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="contenedor-nav">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="recursos-imagenes/tecnobalanegra_logo.png" alt="TecnoBalanegra Logo" class="logo-img">
+                </a>
+            </div>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="index.html#servicios">Servicios</a>
+                <a href="nosotros.html">Sobre Nosotros</a>
+                <a href="contacto.html" class="active">Contacto</a>
+                <a href="tienda.html" class="boton-tienda">TIENDA ONLINE</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contenedor-contacto">
+        <section class="contacto-header">
+            <h1>Contacta con nosotros</h1>
+            <p>¿Tienes una avería o necesitas presupuesto? Estamos aquí para ayudarte.</p>
+        </section>
+
+        <div class="contacto-grid">
+            <div class="formulario-container">
+                <form id="formContacto" class="form-pro">
+                    <div class="grupo-input">
+                        <label>Nombre Completo</label>
+                        <input type="text" placeholder="Ej. Adrián Romero" required>
+                    </div>
+                    <div class="grupo-input">
+                        <label>Email</label>
+                        <input type="email" placeholder="tucorreo@gmail.com" required>
+                    </div>
+                    <div class="grupo-input">
+                        <label>Asunto</label>
+                        <select>
+                            <option>Reparación de PC/Portátil</option>
+                            <option>Presupuesto Componentes</option>
+                            <option>Licencias de Software</option>
+                            <option>Otros</option>
+                        </select>
+                    </div>
+                    <div class="grupo-input">
+                        <label>Mensaje</label>
+                        <textarea rows="5" placeholder="Cuéntanos brevemente el problema de tu equipo..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-enviar-contacto">Enviar Mensaje</button>
+                </form>
+            </div>
+
+            <div class="info-contacto">
+                <div class="info-card">
+                    <h4>📍 Ubicación</h4>
+                    <p>Balanegra, Almería (Ctra. Málaga)</p>
+                </div>
+                <div class="info-card">
+                    <h4>📞 Teléfono / WhatsApp</h4>
+                    <p>+34 600 000 000</p>
+                </div>
+                <div class="info-card">
+                    <h4>⏰ Horario</h4>
+                    <p>Lunes a Viernes: 09:00 - 14:00 | 17:00 - 20:00</p>
+                </div>
+                
+                <div class="mapa-contenedor">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d288905.6480990457!2d-2.958773344692224!3d36.86673938230751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7045320bd48ebb%3A0x3e8f5b37186a8bd3!2zQ2Fyci4gZGUgTcOhbGFnYSwgQWxtZXLDrWE!5e0!3m2!1ses!2ses!4v1777840524488!5m2!1ses!2ses"
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p><small>&copy; 2026 <strong>TecnoBalanegra</strong> - Todos los derechos reservados.</small></p>
+        
+        <div class="footer-section">
+            <h4>Nuestras Redes Sociales:</h4>
+            <div class="social-links">
+                <a href="https://instagram.com" target="_blank">
+                    <img src="recursos-imagenes/Instagram.png" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://wa.me/34600000000" target="_blank">
+                    <img src="recursos-imagenes/WhatsApp.png" alt="WhatsApp" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
